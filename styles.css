@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+.hastag-header{
+    padding: 5rem;
+    background-color: #065FD4;
+    color: white;
+
+}
+h2{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.profile-main{
+    display: flex;
+    flex-direction:row-reverse; 
+    float: left;
+    
+}
+
+.profile-main::after{
+    content: '208K  Videos .  28K  channels';
+    margin-right: 20px;
+    padding-top: 8px;
+}
+
+.pro-pic {
+  /* display: inline; */
+  width: 2rem;
+  height:2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin-left: -10px;
+}
+.pro-pic img{
+    /* margin: 0 auto; */
+    height: 100%;
+    width: auto;
+}
